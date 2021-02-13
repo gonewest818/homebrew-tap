@@ -13,6 +13,9 @@ class Dar < Formula
   depends_on "upx" => [:build, :recommended]
   depends_on "libgcrypt"
   depends_on "lzo"
+  on_linux do
+    depends_on "bzip2"
+  end
 
   def install
     ENV.cxx11
