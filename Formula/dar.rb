@@ -23,7 +23,7 @@ class Dar < Formula
       "--disable-dar-static",
       "--disable-dependency-tracking",
       "--disable-libxz-linking",
-      "--enable-mode=64"
+      "--enable-mode=64",
     ]
 
     args << "--disable-upx" if build.without? "upx"
