@@ -10,6 +10,12 @@ class Dar < Formula
     regex(%r{url=.*?/dar[._-]v?(\d+(?:\.\d+)+)\.t}i)
   end
 
+  bottle do
+    root_url "https://github.com/gonewest818/homebrew-tap/releases/download/dar-2.6.13"
+    sha256 cellar: :any, catalina:     "14bf50e591cc982af2e213d5b8fc670e528296888ac28f54f11c5e7450bc7236"
+    sha256               x86_64_linux: "1844078e70d76b587726ff0e534723c8e2e0590cb86bc944b623262fdb11eed5"
+  end
+
   depends_on "upx" => [:build, :recommended]
   depends_on "libgcrypt"
   depends_on "lzo"
