@@ -1,0 +1,9 @@
+# Gonewest818 Tap
+
+## How do I install these formulae?
+`brew install gonewest818/tap/<formula>`
+
+Or `brew tap gonewest818/tap` and then `brew install <formula>`.
+
+## Documentation
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
