@@ -1,6 +1,6 @@
 cask "gonewest818-handbrakecli" do
-  version "1.5.1"
-  sha256 "328ad1fbacb855b644b63899450c004cb18e5e819ad519549c4c4bc863a60f90"
+  version "1.7.2"
+  sha256 "4211f704e8fa39968a85b23b880ee5bfaf7b575dca1fecfc94788fe449d38666"
 
   url "https://github.com/HandBrake/HandBrake/releases/download/#{version}/HandBrakeCLI-#{version}.dmg",
       verified: "github.com/HandBrake/HandBrake/"
